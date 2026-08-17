@@ -9,7 +9,7 @@ def multiplicar(a,b):
 
 def dividir(a,b):
     if b == 0:
-        return "no existe la division por cero"
+        raise ZeroDivisionError("no existe la division por cero")
     return a/b
 
 def potencia(a,b):
